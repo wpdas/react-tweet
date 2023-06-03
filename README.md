@@ -1,8 +1,8 @@
 # Tweet - React Component
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/wpdas/react-tweet/publish.yml?style=for-the-badge&colorB=000000)](https://github.com/wpdas/near-social-bridge/actions?query=workflow%3Apublish)
-[![Build Size](https://img.shields.io/bundlephobia/minzip/@wpdas/react-tweet?color=000000&label=bundle&style=for-the-badge)](https://bundlephobia.com/package/near-social-bridge)
-[![Version](https://img.shields.io/npm/v/@wpdas/react-tweet?style=for-the-badge&colorB=000000)](https://www.npmjs.com/package/near-social-bridge)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/wpdas/react-tweet/publish.yml?style=for-the-badge&colorB=000000)](https://github.com/wpdas/react-tweet/actions?query=workflow%3Apublish)
+[![Build Size](https://img.shields.io/bundlephobia/minzip/@wpdas/react-tweet?color=000000&label=bundle&style=for-the-badge)](https://bundlephobia.com/package/react-tweet)
+[![Version](https://img.shields.io/npm/v/@wpdas/react-tweet?style=for-the-badge&colorB=000000)](https://www.npmjs.com/package/react-tweet)
 
 A simple Tweet component for ReactJS apps.
 
