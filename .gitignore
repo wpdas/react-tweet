@@ -6,5 +6,6 @@ temp
 
 # build
 /components
+/utils
 /index.d.ts
 /index.js
