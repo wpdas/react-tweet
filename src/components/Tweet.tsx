@@ -36,7 +36,7 @@ const TweetStage: React.FC<TweetStageProps> = ({ tweetID, options, onError, onRe
           conversation: options?.conversation || 'none', // or all
           cards: options?.cards || 'visible', // or visible
           linkColor: options?.linkColor || '#cc0000', // default is blue
-          theme: options?.theme || 'dark', // or dark
+          theme: options?.theme || 'light', // or dark
         })
         .then(function (el: any) {
           if (el.contentDocument?.querySelector) {
@@ -49,7 +49,7 @@ const TweetStage: React.FC<TweetStageProps> = ({ tweetID, options, onError, onRe
         })
         .catch(() => {
           if (onError) {
-            onError('The URL you provided is not valid or not public')
+            onError('The tweet URL you provided is not valid or not public')
           }
         })
     }
@@ -71,8 +71,8 @@ const TweetStage: React.FC<TweetStageProps> = ({ tweetID, options, onError, onRe
           <script async src="https://platform.twitter.com/widgets.js" crossOrigin="anonymous"></script>
         </Helmet>
       )}
-      {/* @ts-ignore */}
-      {twttrReady && <div id={tweetID} tweetID={tweetID}></div>}
+
+      {twttrReady && <div id={tweetID} style={{ width: '100%' }}></div>}
     </>
   )
 }

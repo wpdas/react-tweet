@@ -1,6 +1,6 @@
 {
   "name": "@wpdas/react-tweet",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple Tweet component for ReactJS apps.",
   "main": "./dist/cjs/index.js",
   "module": "./index.js",
