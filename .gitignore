@@ -1,0 +1,10 @@
+.DS_Store
+yarn-error.log*
+node_modules
+dist
+temp
+
+# build
+/components
+/index.d.ts
+/index.js
